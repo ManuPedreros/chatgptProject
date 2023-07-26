@@ -1,49 +1,76 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #333367;
 }
 
 header {
-    background-color: #333;
+    display: flex;
+    justify-content: center;
+    background-color: #0F0F3F;
     color: #fff;
-    text-align: center;
-    padding: 10px;
+    /* text-align: center; */
+    padding: 2rem 0;
 }
 
-h1 {
-    margin: 0;
+header div {
+    margin: auto 0;
 }
 
-main {
-    padding: 20px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
+header img {
+    /* width: 150px;
+    height: 150px; */
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    /* Puedes ajustar el ancho máximo según tus necesidades */
+    /* height: auto; */
+    /* Esto permite que la altura se ajuste automáticamente */
+    max-width: 300px;
+    height: auto;
+    /* border-radius: 50%; */
 }
 
 section {
-    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #7b7bcd;
 }
 
-h2 {
-    color: #333;
-    border-bottom: 1px solid #333;
-    padding-bottom: 5px;
+footer {
+    background-color: #0F0F3F;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }
 
-ul {
+/* Estilos para la sección de enlaces a redes sociales */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-links ul {
     list-style: none;
-    padding-left: 20px;
+    padding: 0;
 }
 
-a {
-    color: #007BFF;
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #f9f9f9;
+    /* Color de los íconos */
+    font-size: 24px;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
